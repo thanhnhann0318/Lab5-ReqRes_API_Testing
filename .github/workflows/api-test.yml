@@ -25,7 +25,7 @@ jobs:
 
       - name: Run Postman Collection
         run: |
-          newman run ReqRes_Collection.json \
+          newman run 2474802010275_VoThanhNhan_ReqRes.postman_collection.json \
             --env-var "baseUrl=https://reqres.in" \
             --env-var "apiKey=${{ secrets.REQRES_API_KEY }}" \
             --reporters cli
