@@ -3,11 +3,10 @@
 	"name": "2474802010275_VoThanhNhan_ReqRes_Env",
 	"values": [
 		{
-			"key": "baseUrl",
-			"value": "",
-			"type": "default",
-			"enabled": true
-		},
+           "key": "baseUrl",
+           "value": "https://reqres.in",
+           "enabled": true
+        },
 		{
 			"key": "userId",
 			"value": "",
