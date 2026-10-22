@@ -28,6 +28,7 @@ jobs:
           npx newman run ReqRes_Collection.json \
             -e ReqRes_Environment.json \
             -d users.csv \
+            --env-var "baseUrl=https://reqres.in" \
             --env-var "apiKey=${{ secrets.REQRES_API_KEY }}" \
             --reporters cli,htmlextra \
             --reporter-htmlextra-export report.html
